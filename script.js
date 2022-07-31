@@ -99,20 +99,57 @@
     // result =!(z > y)
 
 // date object
-var d= new Date();
-console.log(d);
-   //set methods
-   d.setFullYear(2019);
-   d.setHours(16);
-   d.setMonth(5);
-   //get methods
-   console.log(d.getFullYear());
-   console.log(d.getHours());
-   console.log(d.getMonth()); //The 6th index corresponds to the month of July - January 0 index
-   console.log(d.getMinutes());
-   console.log(d.getSeconds());
-   console.log(d.getDay());
-   console.log(d.getDate());
+// var d= new Date();
+// console.log(d);
+//    //set methods
+//    d.setFullYear(2019);
+//    d.setHours(16);
+//    d.setMonth(5);
+//    //get methods
+//    console.log(d.getFullYear());
+//    console.log(d.getHours());
+//    console.log(d.getMonth()); //The 6th index corresponds to the month of July - January 0 index
+//    console.log(d.getMinutes());
+//    console.log(d.getSeconds());
+//    console.log(d.getDay());
+//    console.log(d.getDate());
+
+
+//String Methods
+    const Name="Aysu";
+    const surname="DELİAHMETOGLU";
+    var x = Name +' '+ surname;
+    console.log(x)
+    console.log(typeof(x));
+//string concat
+    x = Name.concat(' ',surname);
+    console.log(x)
+//string length
+    x=Name.length;
+    console.log(x)
+//string uppercase
+    x=Name.toUpperCase();
+    console.log(x)
+//string lowercase
+    x=surname.toLowerCase();
+    console.log(x)
+//string indexof
+    x=Name.indexOf('u');
+    console.log(x)
+//string substring
+    x = Name.substring(0,2);
+    console.log(x)
+//string slice
+    x=surname.slice(5);
+    console.log(x)
+//string replace
+    x =Name.replace('Aysu','Ayça');
+    console.log(Name);
+
+
+
+
+
 
 
    
