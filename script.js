@@ -146,46 +146,84 @@
 //     console.log(Name);
 
 //Number Methods
+    // var x = 10;
+    // x = '10';
+    // x = Number('10');
+    // console.log(x);
+    // console.log(typeof x);
+    // x =isNaN('10x');
+    // console.log(x);
 
-    var x = 10;
-    x = '10';
-    x = Number('10');
-    console.log(x);
-    console.log(typeof x);
-    x =isNaN('10x');
-    console.log(x);
+    // //parseInt parseFloat
+    //     var number = 36.4323133
+    //     number = parseInt(number);
+    //     // number = parseFloat(number);
+    // // precision fixed
+    // var number = 36.4323133
+    // // number = number.toPrecision(4); //convert to string  before comma
+    // console.log(typeof number);
+    // number = number.toFixed(3); //after comma
+    // console.log( number);
 
-    //parseInt parseFloat
-        var number = 36.4323133
-        number = parseInt(number);
-        // number = parseFloat(number);
-    // precision fixed
-    var number = 36.4323133
-    // number = number.toPrecision(4); //convert to string  before comma
-    console.log(typeof number);
-    number = number.toFixed(3); //after comma
-    console.log( number);
+    // //Math Methods
+    // var p = 64;
+    // number = Math.PI;
+    // number = Math.round(5.4);
+    // number = Math.ceil(4.9);
+    // number = Math.floor(4.5);
+    // number = Math.sqrt(p);
+    // number = Math.pow(2,4);
+    // number = Math.abs(-234);
+    // number = Math.min(2,23,45,65,1,23,0,87,65,43); //0
+    // number = Math.max(32,43,23,1455,323,577,8,4); //1455
+    // number =Math.random(); //0-1
+    // number =Math.random()*100; //0-100
+    // console.log(number)
 
-    //Math Methods
-    var p = 64;
-    number = Math.PI;
-    number = Math.round(5.4);
-    number = Math.ceil(4.9);
-    number = Math.floor(4.5);
-    number = Math.sqrt(p);
-    number = Math.pow(2,4);
-    number = Math.abs(-234);
-    number = Math.min(2,23,45,65,1,23,0,87,65,43); //0
-    number = Math.max(32,43,23,1455,323,577,8,4); //1455
+    //Arrays
+    var colors = ['pink','yellow','red','black','blue']
 
-    number =Math.random(); //0-1
-    number =Math.random()*100; //0-100
+    var numbers= [5,32,12,234,675]
+
+    var cn =['red',15,null,undefined,['purple',21]]
+    console.log(colors);
+    console.log(cn);
+    console.log(colors.length);
+
+    // Get arrays 
+    console.log(cn[0]);
+    console.log(colors[4]);
+    // Set arrays
+    colors[0]='orange'
+    console.log(colors);
+
+    // Add arrays item
+    colors.push('green');
+    console.log(colors);
+    colors.unshift('green'); //adding first index
+    console.log(colors);
+
+    //Remove arrays item
+    colors.pop(); // remove last item 
+    colors.shift();
+    console.log(colors); //remove first item
+
+    //Reverse
+    colors.reverse();
+    console.log(colors);
+
+    //sort
+    colors.sort();
+    console.log(colors);
+
+    //concat 
+    var h =colors.concat(numbers);
+    console.log(h);
 
 
 
 
 
-    console.log(number)
 
 
 
