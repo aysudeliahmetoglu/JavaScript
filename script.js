@@ -181,44 +181,87 @@
     // console.log(number)
 
     //Arrays
-    var colors = ['pink','yellow','red','black','blue']
+    // var colors = ['pink','yellow','red','black','blue']
 
-    var numbers= [5,32,12,234,675]
+    // var numbers= [5,32,12,234,675]
 
-    var cn =['red',15,null,undefined,['purple',21]]
-    console.log(colors);
-    console.log(cn);
-    console.log(colors.length);
+    // var cn =['red',15,null,undefined,['purple',21]]
+    // console.log(colors);
+    // console.log(cn);
+    // console.log(colors.length);
 
-    // Get arrays 
-    console.log(cn[0]);
-    console.log(colors[4]);
-    // Set arrays
-    colors[0]='orange'
-    console.log(colors);
+    // // Get arrays 
+    // console.log(cn[0]);
+    // console.log(colors[4]);
+    // // Set arrays
+    // colors[0]='orange'
+    // console.log(colors);
 
-    // Add arrays item
-    colors.push('green');
-    console.log(colors);
-    colors.unshift('green'); //adding first index
-    console.log(colors);
+    // // Add arrays item
+    // colors.push('green');
+    // console.log(colors);
+    // colors.unshift('green'); //adding first index
+    // console.log(colors);
 
-    //Remove arrays item
-    colors.pop(); // remove last item 
-    colors.shift();
-    console.log(colors); //remove first item
+    // //Remove arrays item
+    // colors.pop(); // remove last item 
+    // colors.shift();
+    // console.log(colors); //remove first item
 
-    //Reverse
-    colors.reverse();
-    console.log(colors);
+    // //Reverse
+    // colors.reverse();
+    // console.log(colors);
 
-    //sort
-    colors.sort();
-    console.log(colors);
+    // //sort
+    // colors.sort();
+    // console.log(colors);
 
-    //concat 
-    var h =colors.concat(numbers);
-    console.log(h);
+    // //concat 
+    // var h =colors.concat(numbers);
+    // console.log(h);
+
+    //If-else
+    var Name ='Sam';
+    var age = 23;
+    var drivinglicence=true;
+
+    if (Name == 'Sam')
+    {
+      console.log('Hello Sam!');
+    }
+
+    if (age == 23)
+    {
+        console.log('Your age is 23.');
+      
+    }
+
+    if (drivinglicence == true)
+    {
+        console.log('You can drive a car.');
+      
+    }
+    else{
+        console.log('You cannot drive a car');
+    }
+
+    if (age >=18)
+    {
+        if (drivinglicence == true)
+        {
+            console.log('You can drive a car.');
+          
+        }
+        else
+        {
+            console.log('you dont have a driving licence')
+        }
+      
+    }
+    else{
+        console.log('Because you are 18 years old you cannot drive a car');
+    }
+
 
 
 
