@@ -114,37 +114,78 @@
 //    console.log(d.getDay());
 //    console.log(d.getDate());
 
+// //String Methods
+//     const Name="Aysu";
+//     const surname="DELİAHMETOGLU";
+//     var x = Name +' '+ surname;
+//     console.log(x)
+//     console.log(typeof(x));
+// //string concat
+//     x = Name.concat(' ',surname);
+//     console.log(x)
+// //string length
+//     x=Name.length;
+//     console.log(x)
+// //string uppercase
+//     x=Name.toUpperCase();
+//     console.log(x)
+// //string lowercase
+//     x=surname.toLowerCase();
+//     console.log(x)
+// //string indexof
+//     x=Name.indexOf('u');
+//     console.log(x)
+// //string substring
+//     x = Name.substring(0,2);
+//     console.log(x)
+// //string slice
+//     x=surname.slice(5);
+//     console.log(x)
+// //string replace
+//     x =Name.replace('Aysu','Ayça');
+//     console.log(Name);
 
-//String Methods
-    const Name="Aysu";
-    const surname="DELİAHMETOGLU";
-    var x = Name +' '+ surname;
-    console.log(x)
-    console.log(typeof(x));
-//string concat
-    x = Name.concat(' ',surname);
-    console.log(x)
-//string length
-    x=Name.length;
-    console.log(x)
-//string uppercase
-    x=Name.toUpperCase();
-    console.log(x)
-//string lowercase
-    x=surname.toLowerCase();
-    console.log(x)
-//string indexof
-    x=Name.indexOf('u');
-    console.log(x)
-//string substring
-    x = Name.substring(0,2);
-    console.log(x)
-//string slice
-    x=surname.slice(5);
-    console.log(x)
-//string replace
-    x =Name.replace('Aysu','Ayça');
-    console.log(Name);
+//Number Methods
+
+    var x = 10;
+    x = '10';
+    x = Number('10');
+    console.log(x);
+    console.log(typeof x);
+    x =isNaN('10x');
+    console.log(x);
+
+    //parseInt parseFloat
+        var number = 36.4323133
+        number = parseInt(number);
+        // number = parseFloat(number);
+    // precision fixed
+    var number = 36.4323133
+    // number = number.toPrecision(4); //convert to string  before comma
+    console.log(typeof number);
+    number = number.toFixed(3); //after comma
+    console.log( number);
+
+    //Math Methods
+    var p = 64;
+    number = Math.PI;
+    number = Math.round(5.4);
+    number = Math.ceil(4.9);
+    number = Math.floor(4.5);
+    number = Math.sqrt(p);
+    number = Math.pow(2,4);
+    number = Math.abs(-234);
+    number = Math.min(2,23,45,65,1,23,0,87,65,43); //0
+    number = Math.max(32,43,23,1455,323,577,8,4); //1455
+
+    number =Math.random(); //0-1
+    number =Math.random()*100; //0-100
+
+
+
+
+
+    console.log(number)
 
 
 
