@@ -263,55 +263,71 @@
     // }
 
     //swith-case statements
-    let category = 1;
-    switch(category){
+    // let category = 1;
+    // switch(category){
 
-     case 1:
-         console.log('Your tea is ready.');
-         break;
-     case 2:
-         console.log('Your coffee is ready.');
-         break;
-      case 3:
-          console.log('Your milk is ready.');       
-    }
+    //  case 1:
+    //      console.log('Your tea is ready.');
+    //      break;
+    //  case 2:
+    //      console.log('Your coffee is ready.');
+    //      break;
+    //   case 3:
+    //       console.log('Your milk is ready.');       
+    // }
 
-    let day;
-    switch(new Date().getDay())
-    {   case 0:
-            day = 'monday';
-            console.log('today is ' + day);
-            break;
+    // let day;
+    // switch(new Date().getDay())
+    // {   case 0:
+    //         day = 'monday';
+    //         console.log('today is ' + day);
+    //         break;
 
-        case 1:
-            day = 'thuesday';
-            console.log('today is ' + day);
-            break;
+    //     case 1:
+    //         day = 'thuesday';
+    //         console.log('today is ' + day);
+    //         break;
         
-        case 2:
-            day = 'wednesday';
-            console.log('today is ' + day);
-            break;
+    //     case 2:
+    //         day = 'wednesday';
+    //         console.log('today is ' + day);
+    //         break;
          
-        case 3:
-            day = 'thursday';
-            console.log('today is ' + day);
-            break;
+    //     case 3:
+    //         day = 'thursday';
+    //         console.log('today is ' + day);
+    //         break;
         
-        case 4:
-            day = 'friday';
-            console.log('today is ' + day);
-            break;
-        case 5:
-            day = 'saturday';
-        console.log('today is ' + day);
-        break;
-        case 6:
-            day = 'sunday';
-            console.log('today is ' + day);
-            break;
-    }
+    //     case 4:
+    //         day = 'friday';
+    //         console.log('today is ' + day);
+    //         break;
+    //     case 5:
+    //         day = 'saturday';
+    //     console.log('today is ' + day);
+    //     break;
+    //     case 6:
+    //         day = 'sunday';
+    //         console.log('today is ' + day);
+    //         break;
+    // }
 
+    //loops
+    //while loop
+    let i = 0;
+    while (i < 10){
+        console.log(i);
+        i++;
+    }
+    let j = 0;
+    do{
+        console.log(j);
+        j++;
+    }
+    while (j < 10)
+    {
+        console.log('finish')
+    }
 
 
 
