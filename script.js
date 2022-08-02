@@ -330,13 +330,53 @@
     // }
 
     //Template literals
+    // const fullname = 'Aysu Deliahmetoglu';
+    // const country = 'Turkey';
+    // const dateofbirth = 1998;
+    // // let val = 'My name is ' + fullname + ' I live in '+country + 'My age is' + (2022-dateofbirth) 
+    // let val = `My name is ${fullname} I live in ${country} My age is ${(2022-dateofbirth<=18)?'lower than 18':'greater than 18'}`
+    // console.log(val)
+    
+    //Object literals 
+    let firstname = 'Aysu';
+    let lastname = 'Deliahmetoglu';
 
-    const fullname = 'Aysu Deliahmetoglu';
-    const country = 'Turkey';
-    const dateofbirth = 1998;
-    // let val = 'My name is ' + fullname + ' I live in '+country + 'My age is' + (2022-dateofbirth) 
-    let val = `My name is ${fullname} I live in ${country} My age is ${(2022-dateofbirth<=18)?'lower than 18':'greater than 18'}`
-    console.log(val)
+    let firstname1 = 'Jack';
+    let lastname1 = 'Dysn';
+
+    let Aysu = ['Aysu','Deliahmetoglu',23];
+    let Jack  = ['Jack','Dysn',20];
+
+    let person =
+        {firstname :'Aysu',
+        lastname : 'deliahmetoglu',
+        age :  23,
+        hobbies : 'reading a book ',
+        addres: {
+            country :'Turkey',city :'İzmir'
+
+        },
+        getbirtyear: function(){
+            return 2022-this.age;
+
+        }
+
+    }
+    val = person;
+    val = person.firstname;
+    val = person.lastname;
+    val = person.age;
+    val = person.addres.country;
+    val = person.getbirtyear();
+
+    
+
+
+    console.log(val);
+    console.log(person)
+
+    
+
 
 
 
