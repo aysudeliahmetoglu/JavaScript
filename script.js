@@ -338,42 +338,77 @@
     // console.log(val)
     
     //Object literals 
-    let firstname = 'Aysu';
-    let lastname = 'Deliahmetoglu';
+    // let firstname = 'Aysu';
+    // let lastname = 'Deliahmetoglu';
 
-    let firstname1 = 'Jack';
-    let lastname1 = 'Dysn';
+    // let firstname1 = 'Jack';
+    // let lastname1 = 'Dysn';
 
-    let Aysu = ['Aysu','Deliahmetoglu',23];
-    let Jack  = ['Jack','Dysn',20];
+    // let Aysu = ['Aysu','Deliahmetoglu',23];
+    // let Jack  = ['Jack','Dysn',20];
 
-    let person =
-        {firstname :'Aysu',
-        lastname : 'deliahmetoglu',
-        age :  23,
-        hobbies : 'reading a book ',
-        addres: {
-            country :'Turkey',city :'İzmir'
+    // let person =
+    //     {firstname :'Aysu',
+    //     lastname : 'deliahmetoglu',
+    //     age :  23,
+    //     hobbies : 'reading a book ',
+    //     addres: {
+    //         country :'Turkey',city :'İzmir'
 
-        },
-        getbirtyear: function(){
-            return 2022-this.age;
+    //     },
+    //     getbirtyear: function(){
+    //         return 2022-this.age;
 
-        }
+    //     }
 
+    // }
+    // val = person;
+    // val = person.firstname;
+    // val = person.lastname;
+    // val = person.age;
+    // val = person.addres.country;
+    // val = person.getbirtyear();
+
+    // console.log(val);
+    // console.log(person);
+
+    //for-in
+
+    let  cars = ['Audi','Mercedes','BMW'];
+    for (let i = 0 ; i< cars.length;i++)
+    {
+        console.log(`index: ${i} car: ${cars[i]}`)
     }
-    val = person;
-    val = person.firstname;
-    val = person.lastname;
-    val = person.age;
-    val = person.addres.country;
-    val = person.getbirtyear();
 
-    
+    for (i in cars)
+    {
+        console.log(`index: ${i} car: ${cars[i]}`)
+    }
+    //object 
+    //forEach
+    cars.forEach(function(item) {
+        console.log(item);
+    });
 
+    //functions
 
-    console.log(val);
-    console.log(person)
+    // function getpower(number)
+    // {
+    //     return number*number;
+    // }
+    // let a = getpower(5);
+    // console.log(a);
+
+    function sum(number1,number2)
+    {
+        function getpower(x){
+            return x*x
+        }
+        return getpower(number1)+getpower(number2) ;
+    }
+    let result = sum(5,7)
+
+    console.log(result);
 
     
 
