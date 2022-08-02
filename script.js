@@ -314,20 +314,29 @@
 
     //loops
     //while loop
-    let i = 0;
-    while (i < 10){
-        console.log(i);
-        i++;
-    }
-    let j = 0;
-    do{
-        console.log(j);
-        j++;
-    }
-    while (j < 10)
-    {
-        console.log('finish')
-    }
+    // let i = 0;
+    // while (i < 10){
+    //     console.log(i);
+    //     i++;
+    // }
+    // let j = 0;
+    // do{
+    //     console.log(j);
+    //     j++;
+    // }
+    // while (j < 10)
+    // {
+    //     console.log('finish')
+    // }
+
+    //Template literals
+
+    const fullname = 'Aysu Deliahmetoglu';
+    const country = 'Turkey';
+    const dateofbirth = 1998;
+    // let val = 'My name is ' + fullname + ' I live in '+country + 'My age is' + (2022-dateofbirth) 
+    let val = `My name is ${fullname} I live in ${country} My age is ${(2022-dateofbirth<=18)?'lower than 18':'greater than 18'}`
+    console.log(val)
 
 
 
