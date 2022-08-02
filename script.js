@@ -221,46 +221,97 @@
     // console.log(h);
 
     //If-else
-    var Name ='Sam';
-    var age = 23;
-    var drivinglicence=true;
+    // var Name ='Sam';
+    // var age = 23;
+    // var drivinglicence=true;
 
-    if (Name == 'Sam')
-    {
-      console.log('Hello Sam!');
-    }
+    // if (Name == 'Sam')
+    // {
+    //   console.log('Hello Sam!');
+    // }
 
-    if (age == 23)
-    {
-        console.log('Your age is 23.');
+    // if (age == 23)
+    // {
+    //     console.log('Your age is 23.');
       
-    }
+    // }
 
-    if (drivinglicence == true)
-    {
-        console.log('You can drive a car.');
+    // if (drivinglicence == true)
+    // {
+    //     console.log('You can drive a car.');
       
-    }
-    else{
-        console.log('You cannot drive a car');
-    }
+    // }
+    // else{
+    //     console.log('You cannot drive a car');
+    // }
 
-    if (age >=18)
-    {
-        if (drivinglicence == true)
-        {
-            console.log('You can drive a car.');
+    // if (age >=18)
+    // {
+    //     if (drivinglicence == true)
+    //     {
+    //         console.log('You can drive a car.');
           
-        }
-        else
-        {
-            console.log('you dont have a driving licence')
-        }
+    //     }
+    //     else
+    //     {
+    //         console.log('you dont have a driving licence')
+    //     }
       
+    // }
+    // else{
+    //     console.log('Because you are 18 years old you cannot drive a car');
+    // }
+
+    //swith-case statements
+    let category = 1;
+    switch(category){
+
+     case 1:
+         console.log('Your tea is ready.');
+         break;
+     case 2:
+         console.log('Your coffee is ready.');
+         break;
+      case 3:
+          console.log('Your milk is ready.');       
     }
-    else{
-        console.log('Because you are 18 years old you cannot drive a car');
+
+    let day;
+    switch(new Date().getDay())
+    {   case 0:
+            day = 'monday';
+            console.log('today is ' + day);
+            break;
+
+        case 1:
+            day = 'thuesday';
+            console.log('today is ' + day);
+            break;
+        
+        case 2:
+            day = 'wednesday';
+            console.log('today is ' + day);
+            break;
+         
+        case 3:
+            day = 'thursday';
+            console.log('today is ' + day);
+            break;
+        
+        case 4:
+            day = 'friday';
+            console.log('today is ' + day);
+            break;
+        case 5:
+            day = 'saturday';
+        console.log('today is ' + day);
+        break;
+        case 6:
+            day = 'sunday';
+            console.log('today is ' + day);
+            break;
     }
+
 
 
 
