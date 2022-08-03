@@ -399,16 +399,43 @@
     // let a = getpower(5);
     // console.log(a);
 
-    function sum(number1,number2)
-    {
-        function getpower(x){
-            return x*x
-        }
-        return getpower(number1)+getpower(number2) ;
-    }
-    let result = sum(5,7)
+    // function sum(number1,number2)
+    // {
+    //     function getpower(x){
+    //         return x*x
+    //     }
+    //     return getpower(number1)+getpower(number2) ;
+    // }
+    // let result = sum(5,7)
 
-    console.log(result);
+    // console.log(result);
+
+
+    //function declaration
+    function sum (a,b){
+        var c = a +b;
+        return c;
+    }
+    console.log(sum(10,20));
+
+    //function expression 
+
+    const sum = function(a,b){
+        if (typeof a === 'undefined')
+        {
+            a=0;
+        }
+        if (typeof b === 'undefined')
+        {
+            b=0;
+        }
+        var c= a+b;
+        return c;
+    }
+    console.log(sum(10,20));
+    console.log(sum(10)); //NaN
+
+
 
     
 
