@@ -436,37 +436,53 @@
     // console.log(sum(10)); //NaN
 
     //window object
-    let val ;
-    var a =10;
+    // let val ;
+    // var a =10;
     // //alert 
-    alert('Hello!');
+    // alert('Hello!');
 
     // //prompt
-    var c= prompt('Please enter number:');
+    // var c= prompt('Please enter number:');
     // console.log(c);
 
     //confirm 
 
-    var d = confirm('Are you sure?');
-    if (d==true)
-    {
-        console.log('ok');
-    }
-    else
-    {
-        console.log('cancel');
-    }
+    // var d = confirm('Are you sure?');
+    // if (d==true)
+    // {
+    //     console.log('ok');
+    // }
+    // else
+    // {
+    //     console.log('cancel');
+    // }
 
-    //location
+    // //location
 
-    val=window.location;
-    val=window.location.href;
-    val=window.location.hostname;
-    val=window.location.port;
-    val=window.location.protocol;
+    // val=window.location;
+    // val=window.location.href;
+    // val=window.location.hostname;
+    // val=window.location.port;
+    // val=window.location.protocol;
 
+
+    // console.log(val);
+
+    let  val;
+    val= window.document;
+    val= document.all;
+    val= document.all.length;
+    val= document.head;
+    val= document.body;
+    val= document.URL;
+    val= document.images;
+    val= document.title;
 
     console.log(val);
+
+
+
+
 
 
 
