@@ -374,21 +374,21 @@
 
     //for-in
 
-    let  cars = ['Audi','Mercedes','BMW'];
-    for (let i = 0 ; i< cars.length;i++)
-    {
-        console.log(`index: ${i} car: ${cars[i]}`)
-    }
+    // let  cars = ['Audi','Mercedes','BMW'];
+    // for (let i = 0 ; i< cars.length;i++)
+    // {
+    //     console.log(`index: ${i} car: ${cars[i]}`)
+    // }
 
-    for (i in cars)
-    {
-        console.log(`index: ${i} car: ${cars[i]}`)
-    }
-    //object 
-    //forEach
-    cars.forEach(function(item) {
-        console.log(item);
-    });
+    // for (i in cars)
+    // {
+    //     console.log(`index: ${i} car: ${cars[i]}`)
+    // }
+    // //object 
+    // //forEach
+    // cars.forEach(function(item) {
+    //     console.log(item);
+    // });
 
     //functions
 
@@ -412,28 +412,61 @@
 
 
     //function declaration
-    function sum (a,b){
-        var c = a +b;
-        return c;
-    }
-    console.log(sum(10,20));
+    // function sum (a,b){
+    //     var c = a +b;
+    //     return c;
+    // }
+    // console.log(sum(10,20));
 
-    //function expression 
+    // //function expression 
 
-    const sum = function(a,b){
-        if (typeof a === 'undefined')
-        {
-            a=0;
-        }
-        if (typeof b === 'undefined')
-        {
-            b=0;
-        }
-        var c= a+b;
-        return c;
+    // const sum = function(a,b){
+    //     if (typeof a === 'undefined')
+    //     {
+    //         a=0;
+    //     }
+    //     if (typeof b === 'undefined')
+    //     {
+    //         b=0;
+    //     }
+    //     var c= a+b;
+    //     return c;
+    // }
+    // console.log(sum(10,20));
+    // console.log(sum(10)); //NaN
+
+    //window object
+    let val ;
+    var a =10;
+    // //alert 
+    alert('Hello!');
+
+    // //prompt
+    var c= prompt('Please enter number:');
+    // console.log(c);
+
+    //confirm 
+
+    var d = confirm('Are you sure?');
+    if (d==true)
+    {
+        console.log('ok');
     }
-    console.log(sum(10,20));
-    console.log(sum(10)); //NaN
+    else
+    {
+        console.log('cancel');
+    }
+
+    //location
+
+    val=window.location;
+    val=window.location.href;
+    val=window.location.hostname;
+    val=window.location.port;
+    val=window.location.protocol;
+
+
+    console.log(val);
 
 
 
