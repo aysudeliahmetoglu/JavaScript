@@ -468,17 +468,20 @@
 
     // console.log(val);
 
-    let  val;
-    val= window.document;
-    val= document.all;
-    val= document.all.length;
-    val= document.head;
-    val= document.body;
-    val= document.URL;
-    val= document.images;
-    val= document.title;
+    // let  val;
+    // val= window.document;
+    // val= document.all;
+    // val= document.all.length;
+    // val= document.head;
+    // val= document.body;
+    // val= document.URL;
+    // val= document.images;
+    // val= document.title;
 
-    console.log(val);
+    // console.log(val);
+    //single element
+
+    
 
 
 
