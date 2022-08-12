@@ -481,16 +481,31 @@
     // console.log(val);
     //single element
 
-    
+    //selectors
+    const input  = document.queryselector("#add");
+    const btn  = document.queryselector("#btn");
+    const list  = document.queryselector("#list");
+    //eventlisteners
+    btn.addEventListener("click",btnClick);
+    btn.addEventListener("click",listClick);
 
+    //functions
 
-
-
-
-
-
-    
-
+function btnClick()
+{
+    var txt =input.value;
+    if (txt == "")
+    {
+       alert("you must write something!")
+    }
+    else{
+        li=document.createElement("li");
+        li.classList.add("element-group__list__item");
+        li.innerHTML = txt;
+        list.insertBefore(li,list.childNodes[0]);
+        input.value = "";
+    }
+}
 
 
 
